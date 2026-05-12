@@ -33,6 +33,18 @@ cd OR-TOOLS
 pip install ortools
 ```
 
+3. Instalar Geopy para obtener coordenadas
+
+```bash
+pip install geopy
+```
+
+4. Requests para el uso de OSRM
+
+```bash
+pip install requests
+```
+
 ## Secciones del tutorial
 
 #### Sección 0: Introducción al repositorio
@@ -42,4 +54,9 @@ pip install ortools
 
 * Comando : `git checkout paso-1`
 * Foco: La libreria OR-Tools trabaja a partir de una matriz de distancias entre las direcciones dadas. En este paso aprenderemos a crear nuestra matriz de distancias.
+
+#### Sección 2 Ejemplo Básico con 1 vehículo
+
+* Comando : `git checkout paso-2`
+* Foco: Creamos un ejemplo sencillo donde un solo vehículo debe recorrer múltiples destinos.
     
